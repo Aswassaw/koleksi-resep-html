@@ -1,0 +1,17 @@
+/* root */
+:root {
+  --primary: #EFC81A;
+}
+
+/* custom utility */
+.color-primary {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.text-small {
+  font-size: .9rem;
+}
