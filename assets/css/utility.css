@@ -1,4 +1,4 @@
-/* root */
+/* root / html element */
 :root {
   --primary: #EFC81A;
 }
@@ -14,4 +14,8 @@
 
 .text-small {
   font-size: .9rem;
+}
+
+.mb-10 {
+  margin-bottom: 10vh;
 }

@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./assets/css/login.css">
   <link rel="stylesheet" href="./assets/css/utility.css">
 
-  <title>Food Recipe - Login</title>
+  <title>Food Recipe - Register</title>
 </head>
 
 <body>
@@ -55,17 +55,31 @@
       </div>
       <div class="auth col-sm-7 col-md-6">
         <div class="auth-content w-100">
-          <h1 class="fs-4 fw-bold color-primary text-center">Welcome</h1>
-          <p class="text-secondary text-center mb-4">Log in into your existing account</p>
+          <h1 class="fs-4 fw-bold color-primary text-center">Let's Get Started</h1>
+          <p class="text-secondary text-center mb-4">Create new account to access all features</p>
           <!-- form -->
           <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control form-control-sm p-3" id="name" placeholder="Name">
+            </div>
             <div class="mb-3">
               <label for="email" class="form-label">E-mail</label>
               <input type="email" class="form-control form-control-sm p-3" id="email" placeholder="E-mail">
             </div>
             <div class="mb-3">
-              <label for="password" class="form-label">Password</label>
-              <input type="password" class="form-control form-control-sm p-3" id="password" placeholder="Password">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="text" class="form-control form-control-sm p-3" id="phone" placeholder="08XXXXXXXXXX">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Create New Password</label>
+              <input type="password" class="form-control form-control-sm p-3" id="password"
+                placeholder="Create New Password">
+            </div>
+            <div class="mb-3">
+              <label for="newPassword" class="form-label">New Password</label>
+              <input type="password" class="form-control form-control-sm p-3" id="newPassword"
+                placeholder="New Password">
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="terms">
@@ -73,14 +87,9 @@
             </div>
             <button type="submit" class="btn bg-primary w-100 text-light mb-2">Log in</button>
           </form>
-          <div class="d-flex justify-content-end mb-4">
-            <a class="link-secondary text-decoration-none text-small" href="#">
-              Forgot Password?
-            </a>
-          </div>
           <p class="text-center mb-10">
-            Don't have an account?
-            <a class="color-primary text-decoration-none" href="/register.html">Sign Up</a>
+            Already have account?
+            <a class="color-primary text-decoration-none" href="/login.html">Log in Here</a>
           </p>
           <br>
         </div>
