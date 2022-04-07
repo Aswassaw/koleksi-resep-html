@@ -40,7 +40,7 @@
 
 .auth-content {
   max-width: 330px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 input[type="checkbox"]:hover {
@@ -61,10 +61,5 @@ input[type="checkbox"]:checked {
 @media (max-width: 576px) {
   .auth {
     align-items: flex-start;
-  }
-
-  .auth-content {
-    margin-top: 50px;
-    margin-bottom: 50px;
   }
 }
