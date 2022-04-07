@@ -33,15 +33,26 @@
 /* auth element */
 .auth {
   display: flex;
-  flex-shrink: 0;
   justify-content: center;
-  height: 100vh;
-  overflow: auto;
 }
 
 .auth-content {
   max-width: 330px;
   margin-top: 40px;
+}
+
+@media (min-width: 576px) {
+  .auth {
+    flex-shrink: 0;
+    height: 100vh;
+    overflow: auto;
+  }
+}
+
+@media (min-height: 950px) {
+  .auth {
+    align-items: center;
+  }
 }
 
 input[type="checkbox"]:hover {
@@ -51,16 +62,4 @@ input[type="checkbox"]:hover {
 input[type="checkbox"]:checked {
   background-color: var(--primary);
   border: none;
-}
-
-@media (min-height: 950px) {
-  .auth {
-    align-items: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .auth {
-    align-items: flex-start;
-  }
 }
