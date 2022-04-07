@@ -40,13 +40,7 @@
 
 .auth-content {
   max-width: 330px;
-  margin-top: 15vh;
-}
-
-.auth-content::after {
-  content: ".";
-  display: block;
-  margin-top: 10vh;
+  margin-top: 70px;
 }
 
 input[type="checkbox"]:hover {
@@ -56,4 +50,11 @@ input[type="checkbox"]:hover {
 input[type="checkbox"]:checked {
   background-color: var(--primary);
   border: none;
+}
+
+@media (max-width: 576px) {
+  .auth-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
