@@ -33,6 +33,7 @@
 /* auth element */
 .auth {
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   height: 100vh;
   overflow: auto;
@@ -40,7 +41,7 @@
 
 .auth-content {
   max-width: 330px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 input[type="checkbox"]:hover {
