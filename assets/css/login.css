@@ -43,6 +43,12 @@
   margin-top: 15vh;
 }
 
+.auth-content::after {
+  content: ".";
+  display: block;
+  margin-top: 10vh;
+}
+
 input[type="checkbox"]:hover {
   cursor: pointer;
 }
