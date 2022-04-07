@@ -39,7 +39,7 @@
 }
 
 .auth-content {
-  max-width: 320px;
+  max-width: 330px;
   margin-top: 15vh;
 }
 
@@ -48,6 +48,6 @@ input[type="checkbox"]:hover {
 }
 
 input[type="checkbox"]:checked {
-  background-color: var(--primary) !important;
+  background-color: var(--primary);
   border: none;
 }
