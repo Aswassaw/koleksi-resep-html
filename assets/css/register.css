@@ -52,7 +52,7 @@ input[type="checkbox"]:checked {
   border: none;
 }
 
-@media (min-height: 600px) {
+@media (min-height: 950px) {
   .auth {
     align-items: center;
   }
@@ -61,5 +61,10 @@ input[type="checkbox"]:checked {
 @media (max-width: 576px) {
   .auth {
     align-items: flex-start;
+  }
+
+  .auth-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
