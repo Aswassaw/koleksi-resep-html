@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/font.css">
   <link rel="stylesheet" href="./assets/css/utility.css">
-  <link rel="stylesheet" href="./assets/css/login.css">
+  <link rel="stylesheet" href="./assets/css/auth.css">
 
   <title>Food Recipe - Login</title>
 </head>
@@ -16,8 +16,8 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class="hero col-sm-5 col-md-6 d-none d-sm-flex">
-        <div class="hero-content w-100">
+      <div class="hero col-sm-5 col-md-6 d-none d-sm-flex justify-content-center align-items-center position-relative vh-100">
+        <div class="hero-icon text-center w-100">
           <svg width="100" height="120" viewBox="0 0 182 224" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_59_22)">
               <path
@@ -53,9 +53,9 @@
           </svg>
         </div>
       </div>
-      <div class="auth col-sm-7 col-md-6">
+      <div class="auth login col-sm-7 col-md-6 d-flex justify-content-center">
         <div class="auth-content w-100 ff-inter">
-          <div class="text-center d-sm-none mb-4">
+          <div class="d-sm-none text-center mb-4">
             <svg width="80" height="105" viewBox="0 0 182 224" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_59_22)">
                 <path
@@ -96,11 +96,11 @@
           <form>
             <div class="mb-3">
               <label for="email" class="form-label">E-mail</label>
-              <input type="email" class="form-control form-control-sm p-3" id="email" placeholder="E-mail">
+              <input type="email" class="form-control form-control-sm p-3" id="email" placeholder="E-mail" required>
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
-              <input type="password" class="form-control form-control-sm p-3" id="password" placeholder="Password">
+              <input type="password" class="form-control form-control-sm p-3" id="password" placeholder="Password" required>
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="terms">
@@ -121,7 +121,6 @@
         </div>
       </div>
     </div>
-  </div>
   </div>
 
   <script src="./assets/js/bootstrap.min.js"></script>

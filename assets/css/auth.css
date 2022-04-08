@@ -1,14 +1,8 @@
-/* hero element */
+/* hero component */
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 100vh;
   background-image: url(/assets/img/auth-hero.webp);
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
   transform: rotate(180deg);
 }
@@ -23,34 +17,36 @@
   background-color: rgba(239, 200, 26, .7);
 }
 
-.hero-content {
-  position: absolute;
+.hero-icon {
   z-index: 999;
-  text-align: center;
   transform: rotate(180deg);
 }
 
-/* auth element */
-.auth {
-  display: flex;
-  justify-content: center;
-}
-
+/* auth component */
 .auth-content {
   max-width: 330px;
   margin-top: 40px;
 }
 
+/* width di atas 576px */
 @media (min-width: 576px) {
   .auth {
-    flex-shrink: 0;
     height: 100vh;
+    flex-shrink: 0;
     overflow: auto;
   }
 }
 
+/* height di atas 600px */
 @media (min-height: 600px) {
-  .auth {
+  .login {
+    align-items: center;
+  }
+}
+
+/* height di atas 950px */
+@media (min-height: 950px) {
+  .register {
     align-items: center;
   }
 }
