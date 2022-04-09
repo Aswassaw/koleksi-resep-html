@@ -10,7 +10,7 @@ function scrollFunction() {
 
   if (navbarTogglerStatus) {
     if (document.documentElement.scrollTop > 100) {
-      changeNavbarDark();
+      changeNavbarBg();
     } else {
       changeNavbarTransparent();
     }
@@ -29,16 +29,28 @@ document.querySelector(".navbar-toggler").addEventListener("click", () => {
       changeNavbarTransparent();
     }
   } else {
-    changeNavbarDark();
+    changeNavbarBg();
   }
 });
 
-function changeNavbarDark() {
+function changeNavbarBg() {
   document.getElementById("navbar").classList.remove("bg-transparent");
   document.getElementById("navbar").classList.add("back-primary");
+
+  document.querySelector(".navbar-brand span").classList.add("text-dark");
+  document.querySelectorAll(".nav-link").forEach((el) => {
+    el.classList.remove("color-blue");
+    el.classList.add("text-dark");
+  });
 }
 
 function changeNavbarTransparent() {
   document.getElementById("navbar").classList.remove("back-primary");
   document.getElementById("navbar").classList.add("bg-transparent");
+  
+  document.querySelector(".navbar-brand span").classList.remove("text-dark");
+  document.querySelectorAll(".nav-link").forEach((el) => {
+    el.classList.remove("text-dark");
+    el.classList.add("color-blue");
+  });
 }

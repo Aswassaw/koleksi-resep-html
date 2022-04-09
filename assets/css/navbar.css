@@ -4,11 +4,12 @@
 }
 
 .nav-link {
-  color: #32268f !important;
+  font-weight: 500;
 }
 
 .active {
-  border-bottom: 2px solid #2E266F;
+  padding-right: 5px;
+  border-bottom: 3px solid #3A3845;
 }
 
 .right-menu .icon {

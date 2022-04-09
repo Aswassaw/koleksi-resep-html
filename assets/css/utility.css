@@ -8,17 +8,17 @@
   src: url(../font/airbnb.woff2);
 }
 
-:root {
-  --primary: #EFC81A;
-}
-
 /* custom utility */
 .color-primary {
-  color: var(--primary) !important;
+  color: #EFC81A !important;
+}
+
+.color-blue {
+  color: #2E266F !important;
 }
 
 .back-primary {
-  background-color: var(--primary) !important;
+  background-color: #EFC81A !important;
 }
 
 .ff-inter {

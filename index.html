@@ -17,40 +17,41 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-transparent py-3 ff-airbnb" id="navbar">
-      <div class="container">
-        <a class="navbar-brand d-md-none" href="#">
-          <img src="./assets/icon/logo-black.svg" width="45px" height="45px" alt="App Icon">
-          Food Recipe
-        </a>
-        <button class="navbar-toggler collapsed bg-light" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item me-5">
-              <a class="nav-link" href="#"><span class="active">Home</span></a>
-            </li>
-            <li class="nav-item me-5">
-              <a class="nav-link" href="#"><span>Add Recipe</span></a>
-            </li>
-            <li class="nav-item me-5">
-              <a class="nav-link" href="#"><span>Profile</span></a>
-            </li>
-          </ul>
-          <div class="right-menu d-flex align-items-center">
-            <div class="icon bg-light p-2 rounded-circle">
-              <i class="fas fa-user"></i>
-            </div>
-            <a class="ms-2 text-white" href="/login.html">Login</a>
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-transparent py-3 ff-airbnb" id="navbar">
+    <div class="container">
+      <a class="navbar-brand d-md-none" href="#">
+        <img src="./assets/icon/logo-black.svg" width="45px" height="45px" alt="App Icon">
+        <span>Food Recipe</span>
+      </a>
+      <button class="navbar-toggler collapsed bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item me-5">
+            <a class="nav-link color-blue" href="#"><span class="active">Home</span></a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link color-blue" href="#"><span>Add Recipe</span></a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link color-blue" href="#"><span>Profile</span></a>
+          </li>
+        </ul>
+        <div class="right-menu d-flex align-items-center">
+          <div class="icon bg-light p-2 rounded-circle">
+            <i class="fas fa-user"></i>
           </div>
+          <a class="ms-2 text-white" href="/login.html">Login</a>
         </div>
       </div>
-    </nav>
-    <!-- hero -->
+    </div>
+  </nav>
+
+  <!-- hero -->
+  <div class="container-fluid">
     <section class="hero row">
       <div class="content col-10 col-sm-9 d-flex flex-column justify-content-center ff-airbnb">
         <h1 class="display-5 mb-3">Discover Recipe & Delicious Food</h1>
@@ -61,6 +62,58 @@
       </div>
       <div class="decoration col-2 col-sm-3 d-flex align-items-center back-primary">
         <img class="d-none d-md-block" src="./assets/img/landing-hero.webp" alt="Hero Image">
+      </div>
+    </section>
+  </div>
+
+  <!-- suggestion -->
+  <div class="container">
+    <section class="suggestion ff-airbnb">
+      <div class="title-section mb-5">
+        <h1>Popular For You!</h1>
+      </div>
+      <div class="content row">
+        <div class="left col-7">
+          <img src="./assets/img/landing-suggestion.webp" alt="Suggestion Image">
+          <div>.</div>
+        </div>
+        <div class="right col-5">
+          <div>
+            <h1>Healthy Bone Broth Ramen (Quick & Easy)</h1>
+            <hr>
+            <p>
+              Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry? That’s right!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+
+  <!-- new -->
+  <div class="container">
+    <section class="new ff-airbnb">
+      <div class="title-section">
+        <h1>New Recipe</h1>
+      </div>
+    </section>
+  </div>
+
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+
+  <!-- popular -->
+  <div class="container">
+    <section class="popular ff-airbnb">
+      <div class="title-section">
+        <h1>Popular Recipe</h1>
       </div>
     </section>
   </div>
