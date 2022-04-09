@@ -1,13 +1,18 @@
-/* hero component */
-.hero {
-  background-image: url(/assets/img/auth-hero.webp);
+/* side component */
+.side {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(/assets/img/bg-side.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   transform: rotate(180deg);
 }
 
-.hero::after {
+.side::after {
   content: "";
   position: absolute;
   top: 0px;
@@ -17,13 +22,20 @@
   background-color: rgba(239, 200, 26, .7);
 }
 
-.hero-icon {
+.side .icon {
   z-index: 999;
   transform: rotate(180deg);
 }
 
 /* auth component */
-.auth-content {
+.auth {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.auth .content {
+  width: 100%;
   max-width: 330px;
   margin-top: 40px;
 }

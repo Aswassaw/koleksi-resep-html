@@ -1,4 +1,13 @@
-/* root / html element */
+@font-face {
+  font-family: "Inter";
+  src: url(../font/inter.woff2);
+}
+
+@font-face {
+  font-family: "Airbnb";
+  src: url(../font/airbnb.woff2);
+}
+
 :root {
   --primary: #EFC81A;
 }
@@ -10,10 +19,6 @@
 
 .back-primary {
   background-color: var(--primary) !important;
-}
-
-.text-small {
-  font-size: .9rem;
 }
 
 .ff-inter {
