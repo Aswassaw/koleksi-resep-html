@@ -1,0 +1,65 @@
+/* navbar component */
+.navbar {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.navbar .nav-item .nav-link {
+  color: #2E266F !important;
+}
+
+.active {
+  border-bottom: 2px solid #2E266F;
+}
+
+.right-menu .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.right-menu a {
+  text-decoration: none;
+}
+
+/* hero component */
+.hero {
+  height: 100vh;
+}
+
+.hero-content h1 {
+  max-width: 400px;
+  margin-left: 100px;
+  color: #2E266F;
+}
+
+.hero-content .input-group {
+  max-width: 500px;
+  margin-left: 100px;
+}
+
+.hero-content .input-group label {
+  background-color: #EFEFEF;
+  border: none;
+}
+
+.hero-content .input-group label:hover {
+  cursor: pointer;
+}
+
+.hero-content .input-group input {
+  background-color: #EFEFEF;
+  border: none;
+  font-family: sans-serif;
+}
+
+.hero-decoration img {
+  position: absolute;
+  right: 100px;
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 7px;
+}
