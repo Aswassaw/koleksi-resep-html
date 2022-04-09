@@ -47,41 +47,88 @@
   padding: 15px;
   display: flex;
   color: #3F3A3A;
+  margin-left: 50px;
+}
+
+.suggestion .row {
+  min-height: 300px;
 }
 
 .suggestion .left {
   position: relative;
 }
 
-.suggestion .content .left div {
-  width: 400px;
-  height: 400px;
+.suggestion .left div {
+  width: 300px;
+  height: 300px;
   border-radius: 7px;
   border: 3px solid #EFC81A;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: 50px;
 }
 
-.suggestion .content .left img {
+.suggestion .left img {
+  width: 300px;
+  height: 300px;
   position: absolute;
+  top: 25px;
+  left: 90px;
+  object-fit: center;
+  border-radius: 7px;
+}
+
+.suggestion .right {
+  margin-top: 60px;
+}
+
+.suggestion .right div {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.suggestion .right hr {
+  width: 100px;
+  height: 2px;
+}
+
+/* new */
+.new .row {
+  min-height: 400px;
+}
+
+.new .left {
+  position: relative;
+}
+
+.new .left img {
+  position: absolute;
+  top: 40px;
+  left: 70px;
   width: 400px;
   height: 400px;
   object-fit: center;
   border-radius: 7px;
 }
 
-.suggestion .right {
+.new .left div {
+  position: absolute;
+  left: 0;
+  background-color: red;
+  height: 100%;
+  width: 40%;
+}
+
+.new .right {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.suggestion hr {
-  width: 100px;
-  height: 2px;
-}
-
 @media (min-width: 992px) {
+  .title-section {
+    margin-left: 100px;
+  }
+
+  /* hero */
   .hero .decoration img {
     right: 100px;
     width: 290px;
@@ -96,9 +143,39 @@
     max-width: 450px;
     margin-left: 100px;
   }
+
+  /* suggestion */
+  .suggestion .left div {
+    margin-left: 100px;
+    width: 330px;
+    height: 330px;
+  }
+
+  .suggestion .left img {
+    top: 25px;
+    left: 85px;
+    width: 330px;
+    height: 330px;
+  }
+
+  .suggestion .right {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .suggestion .right div {
+    margin-right: 100px;
+    margin-left: 0px;
+  }
 }
 
 @media (min-width: 1200px) {
+  .title-section {
+    margin-left: 120px;
+  }
+
+  /* hero */
   .hero .decoration img {
     right: 120px;
     width: 370px;
@@ -113,5 +190,24 @@
   .hero .content .search {
     max-width: 500px;
     margin-left: 120px;
+  }
+
+  /* suggestion */
+  .suggestion .left div {
+    margin-left: 120px;
+    width: 370px;
+    height: 370px;
+  }
+
+  .suggestion .left img {
+    top: -30px;
+    left: 165px;
+    width: 370px;
+    height: 370px;
+  }
+
+  .suggestion .right div {
+    margin-right: 120px;
+    margin-left: 0px;
   }
 }
