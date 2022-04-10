@@ -111,7 +111,7 @@ hr {
   height: 220px;
   position: absolute;
   top: 25px;
-  left: 50px;
+  left: 53px;
   object-fit: cover;
   border-radius: 7px;
 }
@@ -123,6 +123,25 @@ hr {
 .new .right div {
   margin-right: 20px;
   margin-left: 20px;
+}
+
+/* popular */
+.popular .card {
+  position: relative;
+  border: none;
+}
+
+.popular .title {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  font-size: 21px;
+}
+
+.popular img {
+  object-fit: cover;
+  border-radius: 12px;
+  height: 250px;
 }
 
 @media (min-width: 768px) {
@@ -172,6 +191,11 @@ hr {
   .new .right div {
     margin-right: 60px;
     margin-left: 0px;
+  }
+
+  /* popular */
+  .popular img {
+    height: 225px;
   }
 }
 
@@ -239,6 +263,11 @@ hr {
   .new .right div {
     margin-right: 100px;
   }
+
+  /* popular */
+  .popular img {
+    height: 300px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -284,5 +313,10 @@ hr {
   .new .left div {
     width: 260px;
     height: 370px;
+  }
+
+  /* popular */
+  .popular img {
+    height: 350px;
   }
 }
