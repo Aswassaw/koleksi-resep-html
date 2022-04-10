@@ -1,4 +1,4 @@
-/* hero component */
+/* hero */
 .hero {
   height: 100vh;
 }
@@ -47,7 +47,7 @@
   padding: 15px;
   display: flex;
   color: #3F3A3A;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .suggestion .row {
@@ -63,7 +63,7 @@
   height: 220px;
   border-radius: 7px;
   border: 3px solid #EFC81A;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .suggestion .left img {
@@ -71,8 +71,8 @@
   height: 220px;
   position: absolute;
   top: 20px;
-  left: 83px;
-  object-fit: center;
+  left: 53px;
+  object-fit: cover;
   border-radius: 7px;
 }
 
@@ -81,46 +81,48 @@
 }
 
 .suggestion .right div {
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-.suggestion .right hr {
+hr {
   width: 100px;
   height: 2px;
 }
 
 /* new */
 .new .row {
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .new .left {
   position: relative;
 }
 
+.new .left div {
+  width: 220px;
+  height: 220px;
+  background-color: #EFC81A;
+  margin-left: -20px;
+}
+
 .new .left img {
+  width: 220px;
+  height: 220px;
   position: absolute;
-  top: 40px;
-  left: 70px;
-  width: 400px;
-  height: 400px;
-  object-fit: center;
+  top: 25px;
+  left: 30px;
+  object-fit: cover;
   border-radius: 7px;
 }
 
-.new .left div {
-  position: absolute;
-  left: 0;
-  background-color: red;
-  height: 100%;
-  width: 40%;
+.new .right {
+  margin-top: 60px;
 }
 
-.new .right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.new .right div {
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 @media (min-width: 768px) {
@@ -136,8 +138,8 @@
   }
 
   .suggestion .left img {
-    top: -20px;
-    left: 50px;
+    top: -22px;
+    left: 97px;
     width: 250px;
     height: 250px;
   }
@@ -147,6 +149,27 @@
   }
 
   .suggestion .right div {
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+
+  /* new */
+  .new .left img {
+    width: 250px;
+    height: 250px;
+    top: 25px;
+    left: 50px;
+  }
+
+  .new .left div {
+    height: 250px;
+  }
+
+  .new .right {
+    margin-top: 0;
+  }
+
+  .new .right div {
     margin-right: 60px;
     margin-left: 0px;
   }
@@ -174,15 +197,15 @@
   }
 
   /* suggestion */
-  .suggestion .left div {
-    margin-left: 100px;
+  .suggestion .left img {
     width: 330px;
     height: 330px;
+    top: -25px;
+    left: 85px;
   }
 
-  .suggestion .left img {
-    top: 25px;
-    left: 85px;
+  .suggestion .left div {
+    margin-left: 100px;
     width: 330px;
     height: 330px;
   }
@@ -190,18 +213,35 @@
   .suggestion .right {
     display: flex;
     align-items: center;
-    margin-top: 0;
   }
 
   .suggestion .right div {
     margin-right: 100px;
   }
+
+  /* new */
+  .new .left img {
+    width: 330px;
+    height: 330px;
+    top: 40px;
+    left: 80px;
+  }
+
+  .new .left div {
+    height: 330px;
+  }
+
+  .new .right {
+    display: flex;
+    align-items: center;
+  }
+
+  .new .right div {
+    margin-right: 100px;
+  }
 }
 
 @media (min-width: 1200px) {
-  .title-section {
-    margin-left: 120px;
-  }
 
   /* hero */
   .hero .decoration img {
@@ -222,20 +262,27 @@
 
   /* suggestion */
   .suggestion .left div {
-    margin-left: 120px;
     width: 370px;
     height: 370px;
   }
 
   .suggestion .left img {
-    top: -30px;
-    left: 165px;
+    top: 30px;
+    left: 80px;
     width: 370px;
     height: 370px;
   }
 
-  .suggestion .right div {
-    margin-right: 120px;
-    margin-left: 0px;
+  /* new */
+  .new .left img {
+    width: 370px;
+    height: 370px;
+    top: 40px;
+    left: 80px;
+  }
+
+  .new .left div {
+    width: 260px;
+    height: 370px;
   }
 }
