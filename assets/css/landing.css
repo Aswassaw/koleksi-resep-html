@@ -153,6 +153,19 @@ hr {
     margin-left: 60px;
   }
 
+  /* hero */
+  .hero .decoration img {
+    right: 50px;
+  }
+
+  .hero .content h1 {
+    margin-left: 50px;
+  }
+
+  .hero .content .search {
+    margin-left: 50px;
+  }
+
   /* suggestion */
   .suggestion .left div {
     margin-left: 60px;
@@ -275,6 +288,7 @@ hr {
 }
 
 @media (min-width: 1200px) {
+
   /* hero */
   .hero .decoration img {
     right: 120px;

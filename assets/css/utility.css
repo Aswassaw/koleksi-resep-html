@@ -1,11 +1,13 @@
 @font-face {
   font-family: "Inter";
   src: url(../font/inter.woff2);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Airbnb";
   src: url(../font/airbnb.woff2);
+  font-display: swap;
 }
 
 /* custom utility */

@@ -5,6 +5,16 @@
   max-width: 1000px;
 }
 
+.detail .icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.detail .icon .icon-item:hover {
+  cursor: pointer;
+}
+
 .detail img {
   text-align: center;
   width: 100%;
@@ -38,10 +48,27 @@
   .detail img {
     height: 400px;
   }
+
+  .detail .icon {
+    bottom: 20px;
+    right: 40px;
+  }
 }
 
 @media (min-width: 992px) {
   .detail img {
     height: 500px;
+  }
+
+  .detail .icon {
+    bottom: 20px;
+    right: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .detail .icon {
+    bottom: 20px;
+    right: 140px;
   }
 }
