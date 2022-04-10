@@ -59,19 +59,19 @@
 }
 
 .suggestion .left div {
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
   border-radius: 7px;
   border: 3px solid #EFC81A;
   margin-left: 50px;
 }
 
 .suggestion .left img {
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
   position: absolute;
-  top: 25px;
-  left: 90px;
+  top: 20px;
+  left: 83px;
   object-fit: center;
   border-radius: 7px;
 }
@@ -123,6 +123,35 @@
   align-items: center;
 }
 
+@media (min-width: 768px) {
+  .title-section {
+    margin-left: 60px;
+  }
+
+  /* suggestion */
+  .suggestion .left div {
+    margin-left: 60px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .suggestion .left img {
+    top: -20px;
+    left: 50px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .suggestion .right {
+    margin-top: 0;
+  }
+
+  .suggestion .right div {
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+}
+
 @media (min-width: 992px) {
   .title-section {
     margin-left: 100px;
@@ -166,7 +195,6 @@
 
   .suggestion .right div {
     margin-right: 100px;
-    margin-left: 0px;
   }
 }
 
