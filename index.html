@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./assets/css/utility.css">
   <link rel="stylesheet" href="./assets/css/navbar.css">
   <link rel="stylesheet" href="./assets/css/landing.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,13 +32,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto">
           <li class="nav-item me-5">
-            <a class="nav-link color-blue" href="#"><span class="active">Home</span></a>
+            <a class="nav-link" href="/index.html"><span class="active">Home</span></a>
           </li>
           <li class="nav-item me-5">
-            <a class="nav-link color-blue" href="#"><span>Add Recipe</span></a>
+            <a class="nav-link" href="/add.html"><span>Add Recipe</span></a>
           </li>
           <li class="nav-item me-5">
-            <a class="nav-link color-blue" href="#"><span>Profile</span></a>
+            <a class="nav-link" href="/profile.html"><span>Profile</span></a>
           </li>
         </ul>
         <div class="right-menu d-flex align-items-center">
@@ -83,7 +84,7 @@
             <p>
               Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry? That’s right!
             </p>
-            <a href="#" class="btn back-primary text-light" style="width: 150px;">Learn More</a>
+            <a href="/detail.html" class="btn back-primary text-light" style="width: 150px;">Learn More</a>
           </div>
         </div>
       </div>
@@ -106,13 +107,13 @@
             <p>
               Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry? That’s right!
             </p>
-            <a href="#" class="btn back-primary text-light" style="width: 150px;">Learn More</a>
+            <a href="/detail.html" class="btn back-primary text-light" style="width: 150px;">Learn More</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- populer -->
+    <!-- popular -->
     <section class="popular ff-airbnb mb-10">
       <div class="title-section mb-4 mb-md-5">
         <h1>Popular Recipe</h1>
@@ -120,40 +121,52 @@
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
           <div class="col">
-            <div class="card align-items-center">
-              <p class="title">Chicken <br> Kare</p>
-              <img src="./assets/img/popular-1.webp" class="card-img-top" alt="...">
-            </div>
+            <a href="/detail.html">
+              <div class="card align-items-center">
+                <p class="title text-dark">Chicken <br> Kare</p>
+                <img src="./assets/img/popular-1.webp" class="card-img-top" alt="Chicken Kare">
+              </div>
+            </a>
           </div>
           <div class="col">
-            <div class="card align-items-center">
-              <p class="title">Bomb <br> Chicken</p>
-              <img src="./assets/img/popular-2.webp" class="card-img-top" alt="...">
-            </div>
+            <a href="/detail.html">
+              <div class="card align-items-center">
+                <p class="title text-dark">Bomb <br> Chicken</p>
+                <img src="./assets/img/popular-2.webp" class="card-img-top" alt="Bomb Chicken">
+              </div>
+            </a>
           </div>
           <div class="col">
-            <div class="card align-items-center">
-              <p class="title">Banana <br> Smothie Pop</p>
-              <img src="./assets/img/popular-3.webp" class="card-img-top" alt="...">
-            </div>
+            <a href="/detail.html">
+              <div class="card align-items-center">
+                <p class="title text-dark">Banana <br> Smothie Pop</p>
+                <img src="./assets/img/popular-3.webp" class="card-img-top" alt="Banana Smothie Pop">
+              </div>
+            </a>
           </div>
           <div class="col">
-            <div class="card align-items-center">
-              <p class="title">Coffe Lava <br> Cake</p>
-              <img src="./assets/img/popular-4.webp" class="card-img-top" alt="...">
-            </div>
+            <a href="/detail.html">
+              <div class="card align-items-center">
+                <p class="title text-dark">Coffe Lava <br> Cake</p>
+                <img src="./assets/img/popular-4.webp" class="card-img-top" alt="Coffe Lava Cake">
+              </div>
+            </a>
           </div>
           <div class="col">
-            <div class="card align-items-center">
-              <p class="title">Sugar <br> Salmon</p>
-              <img src="./assets/img/popular-5.webp" class="card-img-top" alt="...">
-            </div>
+            <a href="/detail.html">
+              <div class="card align-items-center">
+                <p class="title text-dark">Sugar <br> Salmon</p>
+                <img src="./assets/img/popular-5.webp" class="card-img-top" alt="Sugar Salmon">
+              </div>
+            </a>
           </div>
           <div class="col">
-            <div class="card align-items-center">
-              <p class="title">Indian <br> Salad</p>
-              <img src="./assets/img/popular-6.webp" class="card-img-top" alt="...">
-            </div>
+            <a href="/detail.html">
+              <div class="card align-items-center">
+                <p class="title text-dark">Indian <br> Salad</p>
+                <img src="./assets/img/popular-6.webp" class="card-img-top" alt="Indian Salad">
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -161,7 +174,7 @@
   </div>
 
   <!-- footer -->
-  <footer class="back-primary color-blue">
+  <footer class="ff-airbnb back-primary color-blue">
     <div class="top">
       <h1 class="display-5 mb-4">Eat, Cook, Repeat</h1>
       <p>Share your best recipe by uploading here !</p>

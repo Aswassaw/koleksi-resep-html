@@ -5,14 +5,14 @@
 
 .hero .content h1 {
   max-width: 400px;
-  margin-left: 50px;
+  margin-left: 22px;
   color: #2E266F;
 }
 
 .hero .content .search {
   display: flex;
   max-width: 400px;
-  margin-left: 50px;
+  margin-left: 22px;
 }
 
 .hero .content .search label {
@@ -30,6 +30,10 @@
 .hero .content .search input {
   background-color: #EFEFEF;
   border: none;
+}
+
+.hero .content .search input:focus {
+  background-color: #ffffff;
 }
 
 .hero .decoration img {
@@ -142,37 +146,6 @@ hr {
   object-fit: cover;
   border-radius: 12px;
   height: 250px;
-}
-
-/* footer */
-footer .top {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-transform: capitalize;
-}
-
-footer .bottom {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .bottom ul {
-  display: flex;
-  list-style: none;
-}
-
-footer .bottom ul li {
-  margin: 0 10px;
-}
-
-footer .bottom ul li a {
-  font-size: .9rem;
-  text-decoration: none;
 }
 
 @media (min-width: 768px) {

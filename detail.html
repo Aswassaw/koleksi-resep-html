@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/utility.css">
+  <link rel="stylesheet" href="./assets/css/navbar.css">
+  <link rel="stylesheet" href="./assets/css/detail.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Food Recipe - Detail</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-transparent py-2 py-md-4 ff-airbnb" id="navbar">
+    <div class="container">
+      <a class="navbar-brand d-md-none" href="#">
+        <img src="./assets/icon/logo-black.svg" width="45px" height="45px" alt="App Icon">
+        <span>Food Recipe</span>
+      </a>
+      <button class="navbar-toggler collapsed bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item me-5">
+            <a class="nav-link" href="/index.html"><span class="active">Home</span></a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="/add.html"><span>Add Recipe</span></a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="/profile.html"><span>Profile</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- content -->
+  <div class="container">
+    <div class="detail ff-airbnb">
+      <h1 class="display-5 text-center color-blue">Loream Sandwich</h1>
+      <div class="text-center mb-5">
+        <img class="mt-4" src="./assets/img/landing-hero.webp" alt="">
+      </div>
+      <div class="ingredients mb-4">
+        <h1 class="fs-2 mb-3">Ingredients</h1>
+        <ul>
+          <li>2 eggs</li>
+          <li>2 tbsp mayonnaise</li>
+          <li>3 slices bread</li>
+          <li>a little butter</li>
+          <li>⅓ carton of cress</li>
+          <li>2-3 slices of tomato or a lettuce leaf and a slice of ham or cheese</li>
+          <li>crisps , to serve</li>
+        </ul>
+      </div>
+      <div class="video-step mb-5">
+        <h1 class="fs-2 mb-3">Video Step</h1>
+        <a href="/detail.html" class="btn back-primary text-light"><i class="fas fa-play"></i></a>
+      </div>
+      <div class="form-comment mb-4">
+        <form>
+          <div class="mb-3">
+            <textarea class="form-control px-3 py-4" placeholder="Comment" id="comment" rows="10"></textarea>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn back-primary w-100 text-light mb-2">Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="list-comment mb-5">
+        <h1 class="fs-2 mb-3">Comment</h1>
+        <div class="row">
+          <div class="col-3 col-sm-2 col-lg-1 d-flex justify-content-center">
+            <div class="">
+              <img src="./assets/img/ayudia.webp" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <div class="col-9 col-sm-10 col-lg-11 d-flex flex-column justify-content-center">
+            <p class="m-0"><strong>Ayudia</strong></p>
+            <p class="m-0 text-break">Nice recipe. simple and delicious, thankyou.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="ff-airbnb back-primary color-blue">
+    <div class="top">
+      <h1 class="display-5 mb-4">Eat, Cook, Repeat</h1>
+      <p>Share your best recipe by uploading here !</p>
+    </div>
+    <div class="bottom">
+      <ul class="m-0 p-0">
+        <li><a class="color-blue" href="">Product</a></li>
+        <li><a class="color-blue" href="">Company</a></li>
+        <li><a class="color-blue" href="">Learn More</a></li>
+        <li><a class="color-blue" href="">Get In Touch</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
