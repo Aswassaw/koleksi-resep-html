@@ -29,12 +29,22 @@
   max-width: 200px;
 }
 
-.detail .form-comment textarea {
+.comment {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.comment .form-comment textarea {
   background-color: #F6F5F4;
   border: none;
 }
 
-.detail .list-comment img {
+.comment .btn {
+  width: 100%;
+  max-width: 200px;
+}
+
+.comment .list-comment img {
   width: 60px;
   height: 60px;
   object-fit: cover;
