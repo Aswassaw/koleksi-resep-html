@@ -35,22 +35,14 @@ document.querySelector(".navbar-toggler").addEventListener("click", () => {
 
 function changeNavbarBg() {
   document.getElementById("navbar").classList.remove("bg-transparent");
-  document.getElementById("navbar").classList.add("back-primary");
-
-  document.querySelector(".navbar-brand span").classList.add("text-dark");
-  document.querySelectorAll(".nav-link").forEach((el) => {
-    el.classList.remove("color-blue");
-    el.classList.add("text-dark");
-  });
+  document.getElementById("navbar").classList.add("bg-white");
+  document.getElementById("navbar").classList.add("nav-shadow");
+  document.querySelector('.nav-login').classList.add('color-blue');
 }
 
 function changeNavbarTransparent() {
-  document.getElementById("navbar").classList.remove("back-primary");
+  document.getElementById("navbar").classList.remove("bg-white");
+  document.getElementById("navbar").classList.remove("nav-shadow");
   document.getElementById("navbar").classList.add("bg-transparent");
-  
-  document.querySelector(".navbar-brand span").classList.remove("text-dark");
-  document.querySelectorAll(".nav-link").forEach((el) => {
-    el.classList.remove("text-dark");
-    el.classList.add("color-blue");
-  });
+  document.querySelector('.nav-login').classList.remove('color-blue');
 }

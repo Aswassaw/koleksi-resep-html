@@ -68,6 +68,6 @@ input[type="checkbox"]:hover {
 }
 
 input[type="checkbox"]:checked {
-  background-color: var(--primary);
+  background-color: #EFC81A;
   border: none;
 }
