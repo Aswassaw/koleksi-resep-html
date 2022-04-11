@@ -46,10 +46,55 @@
   </nav>
 
   <!-- content -->
-  <div class="container">
-    <div class="profile">
-      <h1>Manusia Api</h1>
-    </div>
+  <div class="container mb-5">
+    <section class="profile ff-airbnb text-center mb-5">
+      <div class="d-flex justify-content-center">
+        <div class="position-relative bg-dark">
+          <img class="picture rounded-circle" src="./assets/img/profile.webp" alt="Profile Picture">
+          <img class="icon" src="./assets/icon/edit.svg" alt="Edit Icon">
+        </div>
+      </div>
+      <p class="fs-5 mt-3">Garneta Sharina</p>
+    </section>
+    <section class="recipe ff-airbnb">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="text-secondary nav-link active" aria-current="page" href="#">My Recipe</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-secondary nav-link" href="#">Saved Recipe</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-secondary nav-link" href="#">Liked Recipe</a>
+        </li>
+      </ul>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 gy-2 gx-4 mt-2">
+        <div class="col">
+          <div class="card border-0">
+            <div class="card-body p-0">
+              <img src="./assets/img/profile-recipe2.webp" alt="Recipe 2">
+              <p class="title text-white">Bomb <br> Chicken</p>
+              <div class="action">
+                <a href="/edit.html"><i class="far fa-edit text-light bg-success p-2"></i></a>
+                <a href="#"><i class="far fa-trash-can text-light bg-danger p-2"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <div class="card-body p-0">
+              <img src="./assets/img/profile-recipe1.webp" alt="Recipe 1">
+              <p class="title text-white">Bananas <br> Pancake</p>
+              <div class="action">
+                <a href="/edit.html"><i class="far fa-edit text-light bg-success p-2"></i></a>
+                <a href="#"><i class="far fa-trash-can text-light bg-danger p-2"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 
   <!-- footer -->
